@@ -12,15 +12,15 @@ public class Aluno {
         this.email = email;
         this.dataDeNa = dataDeNa;
     }
-
     public String getnome() {
         return nome;
     }
-
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
     public String getemail() {
         return email;
     }
-
     public Date getdataDeNa() {
         return dataDeNa;
     }
@@ -29,7 +29,5 @@ public class Aluno {
     public String toString() {
         return "Aluno [dataDeNa=" + dataDeNa + ", email=" + email + ", nome=" + nome + "]";
     }
-
     
-
 }
